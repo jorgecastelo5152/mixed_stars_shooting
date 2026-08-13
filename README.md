@@ -1,28 +1,34 @@
 Compact Star Shooting
+
 A compact and modular Python implementation of shooting methods for static mixed fermion-boson stars in General Relativity.
+
 The code solves the coupled Einstein-fluid-Klein-Gordon system in spherical symmetry and determines the scalar-field eigenfrequency through a shooting procedure.
+
 The project is intentionally restricted to a clean minimal model:
-static and spherically symmetric configurations,
-perfect-fluid fermionic matter,
-polytropic equation of state,
-canonical complex scalar field,
-massive scalar potential,
-geometrized units with $G=c=\hbar=1$.
+
+*static and spherically symmetric configurations,
+*perfect-fluid fermionic matter,
+*polytropic equation of state,
+*canonical complex scalar field,
+*massive scalar potential,
+*geometrized units with $G=c=\hbar=1$.
+
 The repository supports:
-pure neutron stars,
-pure boson stars,
-mixed fermion-boson stars,
-scalar-frequency shooting,
-asymptotic lapse normalization,
-gravitational and rest masses,
-particle numbers,
-effective radii,
-binding energies,
-parallel two-dimensional parameter grids,
-incremental checkpointing and restart,
-CSV export,
-radial-profile visualization,
-mass-radius diagrams.
+
+*pure neutron stars,
+*pure boson stars,
+*mixed fermion-boson stars,
+*scalar-frequency shooting,
+*asymptotic lapse normalization,
+*gravitational and rest masses,
+*particle numbers,
+*effective radii,
+*binding energies,
+*parallel two-dimensional parameter grids,
+*incremental checkpointing and restart,
+*CSV export,
+*radial-profile visualization,
+*mass-radius diagrams.
 ---
 Physical model
 The spacetime metric is
